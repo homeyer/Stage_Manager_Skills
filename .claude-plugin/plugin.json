@@ -1,0 +1,8 @@
+{
+  "name": "stage-manager",
+  "version": "0.1.0",
+  "description": "Artful Making skills for vibe coders. Includes 1 skill.",
+  "author": "Manifest AI",
+  "license": "MIT",
+  "skills": ["plugins/stage-manager/skills/artful-making-holes"]
+}
