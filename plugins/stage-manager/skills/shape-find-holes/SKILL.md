@@ -17,7 +17,7 @@ How you move through your work is what you build. Holes in a spec become decisio
 
 ## Reference
 
-Before analyzing, load `plugins/stage-manager/shared/references/invention-zones.md` and `plugins/stage-manager/shared/references/tool-selection-zones.md`.
+Before analyzing, load `plugins/shared/references/invention-zones.md` and `plugins/shared/references/tool-selection-zones.md`.
 
 - **invention-zones.md** — maps invisible decisions, default patterns, and closing questions across 12 architectural zones
 - **tool-selection-zones.md** — maps tool choices Claude makes without asking, real alternatives, lock-in risks, and questions that keep options open

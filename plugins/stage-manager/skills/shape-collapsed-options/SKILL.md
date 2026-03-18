@@ -17,7 +17,7 @@ How you move through your work is what you build. Collapsed options are decision
 
 ## Reference
 
-Before analyzing, load `plugins/stage-manager/shared/references/breakthrough-dimensions.md` to understand the common dimensions builders push on and what collapsed options look like in each one.
+Before analyzing, load `plugins/shared/references/breakthrough-dimensions.md` to understand the common dimensions builders push on and what collapsed options look like in each one.
 
 ---
 
