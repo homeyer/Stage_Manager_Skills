@@ -192,7 +192,7 @@ This command takes a work document (plan, specification, or todo file) and execu
 1. **Create Commit**
 
    ```bash
-   git add .
+   git add <files related to this feature>  # Stage specific files, not `git add .`
    git status
    git diff --staged
 

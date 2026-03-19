@@ -1,6 +1,6 @@
 # Stage Manager — Artful Making Skill Library
 
-A collection of 10 skills for vibe coders who use agentic coding tools (Claude Code, Cursor, Replit). Skills are organized across the Shape-to-Stage flow cycle.
+A collection of 13 skills for vibe coders who use agentic coding tools (Claude Code, Cursor, Replit). Skills are organized across the Shape-to-Stage flow cycle. The mirror never goes dark.
 
 ## Available Slash Commands
 
@@ -13,14 +13,21 @@ A collection of 10 skills for vibe coders who use agentic coding tools (Claude C
 ### Transition
 - `/sense-shape-to-stage-gate` — Five readiness questions before crossing from shaping to staging
 
-### Stage (execute the build)
+### Stage (before, during, and after the build)
 - `/stage-chunking` — Break work into flow-cycle-sized pieces for clean prompting
 - `/stage-wsjf` — Sequence stories by weighted cost of delay
 - `/stage-prompt-craft` — Turn shaped chunks into scoped, guardrailed prompts
+- `/stage-prompt-guard` — Annotate prompts to flag the prompt's own invisible decisions before coding
+- `/stage-live-mirror` — Compare plan vs. code output per-session, surface what the tool invented
 - `/stage-output-review` — Review coding tool output against definition of done and intent
+- `/stage-decision-capture` — Full decisions-made manifest after a build, feeds forward into learning
 
 ### Any Node
 - `/coherence-check` — Lightweight 2-minute gate at any transition point
+
+## Compound Engineering Integration
+
+Modified CE commands that integrate Stage Manager at every phase live in `plugins/compound-engineering/commands/ce/`. These are a fork of the standard CE pipeline with shaping gates, live mirror checkpoints, and decision capture built in.
 
 ## Shared References
 
